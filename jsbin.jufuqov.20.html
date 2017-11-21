@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by kraliktimea (http://jsbin.com/jufuqov/20/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta name="description" content="profile">
+  <title>Profile Tímea Králik</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<style id="jsbin-css">
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: 'Acme', sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+}
+.head, .links, .about {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 100px;
+  height: auto;
+  border-radius:5%;
+  padding: 1px;
+  background-color:#664E4C;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(30%);
+}
+.profile-card {
+  width: 80vw;
+  max-width: 350px;
+  background-color: hsla(0, 0%, 100%, .6);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+.profile-image {
+  margin-top: -55px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 5%;
+}
+.content {
+  padding: 5% 10%;
+}
+body {
+  background: url('https://i.imgur.com/2tdcDyc.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.content {
+  border-top: 1px solid #664E4C;
+}
+img:hover {
+  transform: scale(1.05);
+  filter: grayscale(5%);
+}
+.fa{
+  color:#664E4C;
+  padding:10px;
+}
+h1{
+  font-size:130%
+}
+</style>
+</head>  
+<body>
+  <div class="profile-card">
+    <div class="head">
+      <div class="profile-image">
+        <img src="https://i.imgur.com/gXCqneL.jpg" alt="profile-image">
+      </div>
+      <div class="name-headline">
+        <h1>Tímea Králik</h1>
+        <span>from </span>
+        <p><i class="fa fa-map-marker"></i> Aszód, HU</p>
+      </div>
+    </div>
+    <div class="content">
+      <p class="about">I am interested in a lot of different things, like music, programming, arts and crafts, nature activities and business data processing. I believe that I can find a way to integrate my many passions into my career.
+      </p>
+      <section class="links">
+        <h3>Contact me via:</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/t%C3%ADmea-kr%C3%A1lik-52103b126/" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/kraliktimea" target="_blank"><i class="fa fa-2x fa-github-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://hu.pinterest.com/kraliktimea/" target="_blank"><i class="fa fa-2x fa-pinterest-square" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
